@@ -35,7 +35,7 @@ to be a kwarg now, with a default value of 3, that can be altered by the metric_
 KNeighborsClassifier.
 
 ### Task 2.2, 2.3: Comparing Performance of Custom Classifier with Custom Metric Function and Euclidian Distances
-Below I measure the performance of the Sklearn implementation of the KNeighborsClassifier with my new metric  
+Here I measure the performance of the Sklearn implementation of the KNeighborsClassifier with my new metric  
 function. I test initially with 1NN and compare with the custom classifier, as expected, the results are the  
 same. Then I experiment with 2 and 3 nearest neighbours of the sklearn implementation, in order to see the  
 effect on the results. Finally, I check the performance of the model using euclidian distance with 2 and 3  
